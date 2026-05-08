@@ -1,0 +1,41 @@
+html {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background: aquamarine;
+    padding: 0;
+    margin: 0;
+}
+h1 {
+    margin-bottom: 250px;
+}
+header {
+    position: fixed;
+    top: 0;
+    left: 2em;
+    background-position: left;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url("../images/Banner.png");
+    width: 85%;
+    padding: 0;
+    margin: 0;
+}
+
+nav>ul {
+  list-style-type: none; 
+  padding: 0;            
+  margin: 0;
+  display: flex;         
+  gap: 20px;          
+}
+
+nav a, nav a:visited {
+    color: antiquewhite;
+    text-decoration: none;
+}
+
+main {
+    margin-top: 260px;
+}
