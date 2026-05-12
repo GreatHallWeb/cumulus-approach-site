@@ -1,6 +1,7 @@
 window.onload = () => {
-    if (window.location.pathname.endsWith("contact.html")) {
-        document.getElementById("contact-form").addEventListener("submit", function (event) {
+    form = document.getElementById("contact-form");
+    if (form) {
+        form.addEventListener("submit", function (event) {
             event.preventDefault();
             const name = document.getElementById("name").value.trim();
             const email = document.getElementById("email").value.trim();
