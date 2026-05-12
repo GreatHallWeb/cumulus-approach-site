@@ -1,5 +1,6 @@
 window.onload = () => {
-    form = document.getElementById("contact-form");
+    const form = document.getElementById("contact-form");
+    const result = document.getElementById("contact-result");
     if (form) {
         form.addEventListener("submit", function (event) {
             event.preventDefault();
@@ -21,6 +22,7 @@ window.onload = () => {
             const body =`From: ${name}, ${email}\r\nTopic: ${topic}${additionalDetails}\r\n${messageLabel} ${message}`;
             const mailto = `mailto:support@greathallweb.com?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
             window.location.href = mailto;
+            result?.classList.remove("initial-hidden");
         });
 
         document.getElementById("topic").addEventListener("change", function () {

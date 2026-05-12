@@ -2,79 +2,86 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <meta name="description" content="Simple aviation tools designed for general aviation pilots and CFIs.">
-    <title>Contact | Cumulus Approach</title>
-    <link rel="stylesheet" href="css/style.css">
-    <link
-        href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Space+Grotesk:wght@300..700&display=swap"
-        rel="stylesheet">
-    <link rel="icon" type="image/x-icon" href="images/favicon.ico">
-    <link rel="icon" type="image/png" href="images/favicon.png">
-    <script src="script/site.js?v=1"></script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta name="description" content="Simple aviation tools designed for general aviation pilots and CFIs.">
+  <title>Contact | Cumulus Approach</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Space+Grotesk:wght@300..700&display=swap"
+    rel="stylesheet">
+  <link rel="icon" type="image/x-icon" href="images/favicon.ico">
+  <link rel="icon" type="image/png" href="images/favicon.png">
+  <script src="script/site.js"></script>
 </head>
 
 <body>
-    <header>
-        <h1>Cumulus Approach</h1>
-        <nav aria-label="Primary Navigation">
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="privacy.html">Privacy Policy</a></li>
-                <li><a href="contact.html">Contact</a></li>
-            </ul>
-        </nav>
-    </header>
-    <main>
-        <section class="intro">
-            <h2>Contact Us</h2>
-            <p>
-                Thanks for your interest in Cumulus Approach! Please fill out the form below to email us.
-            </p>
-        </section>
-        <section class="contact-form">
-            <form id="contact-form">
-                <label for="name">Name:</label>
-                <input type="text" id="name" name="name" required>
+  <header>
+    <h1>Cumulus Approach</h1>
+    <nav aria-label="Primary Navigation">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="privacy.html">Privacy Policy</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <section class="intro">
+      <h2>Contact Us</h2>
+      <p>
+        Thanks for your interest in Cumulus Approach! Please fill out the form below to email us.
+      </p>
+    </section>
+    <section class="contact-form">
+      <form id="contact-form">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
 
-                <label for="email">Email:</label>
-                <input type="email" id="email" name="email" required>
-                <label for="topic">Topic</label>
-                <select id="topic" required>
-                    <option value="">Choose one</option>
-                    <option>Support</option>
-                    <option>Bug Report</option>
-                    <option>Feature Request</option>
-                    <option>Question</option>
-                    <option>General Feedback</option>
-                </select>
-                <div id="bug-or-support" class="initial-hidden">
-                    <label for="device">Device (make/model):</label>
-                    <input type="text" id="device" name="device">
-                    <label for="os">Operating System (name/version):</label>
-                    <input type="text" id="os" name="os">
-                    <label for="app-version">App Version:</label>
-                    <input type="text" id="app-version" name="app-version">
-                </div> 
-                <div id="support" class="initial-hidden">
-                    <label for="support-action">Action taken:</label>
-                    <textarea id="support-action" name="support-action" rows="5"></textarea>
-                    <label for="support-expected">Expected result:</label>
-                    <textarea id="support-expected" name="support-expected" rows="5"></textarea>
-                    <label for="support-actual">Actual result:</label>
-                    <textarea id="support-actual" name="support-actual" rows="5"></textarea>
-                </div>
-                
-                <label id="message-label" for="message">Message:</label>
-                <textarea id="message" name="message" rows="5" required></textarea>
-                <button type="submit">Send</button>
-            </form>
-    </main>
-    <footer>
-        <p>&copy; 2026 Cumulus Approach. All rights reserved.</p>
-    </footer>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+        <label for="topic">Topic</label>
+        <select id="topic" required>
+          <option value="">Choose one</option>
+          <option>Support</option>
+          <option>Bug Report</option>
+          <option>Feature Request</option>
+          <option>Question</option>
+          <option>General Feedback</option>
+        </select>
+        <div id="bug-or-support" class="initial-hidden">
+          <label for="device">Device (make/model):</label>
+          <input type="text" id="device" name="device">
+          <label for="os">Operating System (name/version):</label>
+          <input type="text" id="os" name="os">
+          <label for="app-version">App Version:</label>
+          <input type="text" id="app-version" name="app-version">
+        </div>
+        <div id="support" class="initial-hidden">
+          <label for="support-action">Action taken:</label>
+          <textarea id="support-action" name="support-action" rows="5"></textarea>
+          <label for="support-expected">Expected result:</label>
+          <textarea id="support-expected" name="support-expected" rows="5"></textarea>
+          <label for="support-actual">Actual result:</label>
+          <textarea id="support-actual" name="support-actual" rows="5"></textarea>
+        </div>
+
+        <label id="message-label" for="message">Message:</label>
+        <textarea id="message" name="message" rows="5" required></textarea>
+        <button type="submit">Send</button>
+      </form>
+      <div id="contact-result" class="contact-result initial-hidden">
+        <h2>Email draft opened</h2>
+        <p>
+          Your email app should open with a prepared message. If nothing happened,
+          check that email is configured on this device or try sending again.
+        </p>
+      </div>
+  </main>
+  <footer>
+    <p>&copy; 2026 Cumulus Approach. All rights reserved.</p>
+  </footer>
 </body>
 
 </html>
