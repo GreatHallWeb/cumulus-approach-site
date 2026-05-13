@@ -1,42 +1,45 @@
-# Cumulus Approach
+# Cumulus Approach Website
 
-Aviation-focused software and utilities built with simplicity, clarity, and practicality in mind.
+Official website for Cumulus Approach.
 
-## Current Projects
+## About
 
-### Expiry
-A lightweight iOS utility for pilots and CFIs to quickly calculate aviation-related expiration dates.
+Cumulus Approach creates focused aviation software and utilities with an emphasis on clarity, simplicity, and practical day-to-day use.
 
-Features include:
-- Day and month-based date calculations
-- End-of-month rounding
-- Home Screen widgets
-- Clean, glanceable interface
-- Offline-first design
+This repository contains the source for:
 
-## Philosophy
-
-Cumulus Approach focuses on:
-- Calm, minimal interfaces
-- Practical tools over feature bloat
-- Fast, app-first experiences
-- Aviation-aware design without unnecessary complexity
+- https://www.cumulusapproach.com
 
 ## Technology
 
-- SwiftUI
-- WidgetKit
-- iOS 16+
-- GitHub
+This site is built using:
+- HTML
+- CSS
+- JavaScript
 - Netlify
 
-## Website
+## Design Philosophy
 
-https://www.cumulusapproach.com
+The site is intentionally lightweight and fast-loading, with a clean visual style that reflects the Cumulus Approach brand:
+
+- Calm
+- Practical
+- Minimal
+- Aviation-aware
+
+## Development
+
+The site is currently developed using:
+- VS Code
+- GitHub Codespaces
+
+## Deployment
+
+Production deployments are handled through Netlify.
 
 ## Status
 
-Active early-stage development.
+Active development.
 
 ## License
 
