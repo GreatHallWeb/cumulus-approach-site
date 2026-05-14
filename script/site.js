@@ -20,7 +20,7 @@ window.onload = () => {
                 }
             }
             const body =`From: ${name}, ${email}\r\nTopic: ${topic}${additionalDetails}\r\n${messageLabel} ${message}`;
-            const mailto = `mailto:support@greathallweb.com?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
+            const mailto = `mailto:support@cumulusapproach.com?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
             window.location.href = mailto;
             result?.classList.remove("initial-hidden");
         });
