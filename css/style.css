@@ -20,11 +20,9 @@ body {
     max-width: 800px;
     font-family: Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
 }
-header h1 {
-    font-family: "Space Grotesk", sans-serif;
-    margin-bottom: 150px;
-    margin-top: 0.25em;
-    padding-left: 1em;   
+h1, h2, h3, nav a {
+    font-family: "Comfortaa", sans-serif;
+    
 }
 header {
     position: relative;
@@ -42,6 +40,9 @@ header {
     overflow: hidden;
 }
 
+nav {
+    margin-top: 205px;
+}
 nav>ul {
   list-style-type: none; 
   padding: 0;            
@@ -79,6 +80,12 @@ footer p {
     margin-bottom: 0.5em;  
 }
 
+.header-icon {    
+    height: 70px;
+    position: absolute;
+    margin-top: 5px;
+    right: 20px;
+}
 .app-card {
     margin-top: 1rem;
 }
