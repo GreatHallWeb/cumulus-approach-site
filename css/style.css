@@ -220,6 +220,25 @@ footer p {
 }
 
 @media (max-width: 650px) {
+    .primary-navigation{
+        float: none;
+        position: absolute;
+        top: -20px;
+    }
+
+    .social-links {
+        float: none;
+        position: absolute;
+        top: 10px;
+    }
+
+    .app-card-heading {
+        flex-direction: column;
+        gap: 0;
+    }
+    .app-card-header-text {
+        display: block;
+    }
     .app-card-content {
         flex-direction: column;
     }
